@@ -7,6 +7,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class AccountRegistrationPage extends BasePage{
 	JavascriptExecutor js = (JavascriptExecutor)driver;
+	//constructor
 	public AccountRegistrationPage(WebDriver driver) {
 		super(driver);
 	}

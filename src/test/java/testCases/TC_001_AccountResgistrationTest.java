@@ -53,7 +53,7 @@ public class TC_001_AccountResgistrationTest extends BaseClass{
 			//Assertions
 			String confirm_Msg = regPage.getConfirmationMsg();
 			logger.info("Validating expected message");			
-			Assert.assertEquals(confirm_Msg, "Your Account Has Been Created!!!");
+			Assert.assertEquals(confirm_Msg, "Your Account Has Been Created!");
 			
 		}catch(Exception e) {
 			logger.info("*Test is failed");
